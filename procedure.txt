@@ -1,9 +1,0 @@
-To run the application you need nodeJS installed and mysql server running on your machine.
-When you have these running, update the dbCredentials object in "db.js" file with your username and password for the mysql server
-Run npm install in terminal in the project directory
-Run npm start in terminal in the project directory
-Endpoints-
-1. GET  /users, to get the list of users
-2. GET /user?name=<name of user>, to get the details of user with the given name
-3. POST /user, with user json object in request body as 
-    { "name": "Ankur", "email: "ankur@mail.com", "phone":"9839893839", "address":"your address details" }, to save the user to database
